@@ -1,0 +1,347 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: rgb(206, 204, 202);
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto; /* Ajuste a altura conforme necessário */
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Ajuste a cor conforme necessário */
+}
+
+#titulo-inicio {
+    margin-top: auto;
+    font-size: 100px;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 3rem; 
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 15px 24px;
+    font-size: 0.8rem; 
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+    border: none;
+}
+
+button:hover {
+    background-color: rgba(182, 23, 23, 0.8); 
+    cursor: pointer;
+}
+
+.terceira-parte {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(206, 204, 202);
+    padding: 2rem;
+    text-align: center;
+}
+
+.quadrados-container {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    gap: 1rem; 
+    padding: 1rem;
+    margin-top: 30px;
+}
+
+.quadrado1, .quadrado2, .quadrado3 {
+    flex: 1 1 30%; 
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: #f9f6f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    color: #5a3725;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.quadrado1:hover, .quadrado2:hover, .quadrado3:hover {
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+
+.quadrado1 img, .quadrado2 img, .quadrado3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.quadrado3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+#quadra1, #quadra2, #quadra3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+#quada {
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+#nome-quarto1, #nome-quarto2, #nome-quarto3 {
+    color: #5a3725;
+    margin-top: 90px;
+}
+
+#valor1, #valor2, #valor3 {
+    font-size: 25px;
+}
+
+.imagem-parte4 {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 1rem auto;
+}
+
+#descricao-familia {
+    margin: 1rem auto;
+}
+
+.sub-comentario {
+    background-image: url('./Resort\ &\ Spa\ Hotel\ \(1\).jpg'); 
+    padding: 3rem;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#comentario01, #comentario02, #comentario03 {
+    margin: 1rem auto;
+    max-width: 640px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #faf8f8;
+}
+
+.comentario {
+    flex: 1 1 30%; 
+    max-width: 300px; 
+    margin: 1rem; 
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #faf8f8;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out; 
+}
+
+.comentario:hover {
+    transform: scale(1.05); 
+}
+
+#coloe1, #coloe2, #coloe3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+#comente1 {
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(88, 85, 72);
+    margin: 2rem auto;
+    margin-top: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 2rem 1rem;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: -20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ecf0f1;
+    margin-left: 50px;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.footer-section p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.footer-section i {
+    margin-right: 0.5rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #3498db;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 0.9rem;
+    color: #000000;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    #titulo-inicio {
+        font-size: 8rem;
+    }
+    h3 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 80px;
+    }
+    .sub-comentario {
+        display: none;
+    }
+    #comente1 {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    #titulo-inicio {
+        font-size: 6rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 60px;
+    }
+    .quadrado1, .quadrado2, .quadrado3 {
+        flex: 1 1 45%;
+    }
+    .comentario {
+        flex: 1 1 45%;
+    }
+    .sub-comentario {
+        display: none;
+    }
+    #comente1 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #titulo-inicio {
+        font-size: 5rem;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 50px;
+    }
+    .quadrado1, .quadrado2, .quadrado3 {
+        flex: 1 1 100%;
+    }
+    .comentario {
+        flex: 1 1 100%;
+    }
+    .sub-comentario {
+        display: none;
+    }
+    #comente1 {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    #titulo-inicio {
+        font-size: 4rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 40px;
+    }
+    button {
+        padding: 15px 30px;
+        font-size: 1rem;
+    }
+    #bem-vindo {
+        font-size: 2.5rem;
+    }
+    .footer-section h2 {
+        margin-left: 0;
+    }
+    .footer-section p {
+        margin-left: 0;
+    }
+    /* Ocultar o comentário */
+    .sub-comentario {
+        display: none;
+    }
+    #comente1 {
+        display: none;
+    }
+}
